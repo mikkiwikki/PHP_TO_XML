@@ -1,0 +1,11 @@
+<Files *>
+AuthType Basic
+AuthDCE On
+AuthName "PeopleSoft XML Voucher"
+require user mfdevino lmalley bcarney efitzger nguillet lteator
+order deny,allow
+</Files>
+SSLRequireSSL
+ErrorDocument 403 
+
+https://www.uvm.edu/~mfdevino/policy_build/

@@ -1,0 +1,45 @@
+<html xsl:version="1.0"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+      lang="en">
+<head>
+ <title>
+  PeopleSoft XML Voucher Entry
+ </title>
+</head>
+<body>
+ <form action="processForm.php" method="post">
+ <input type="hidden" name="create_xml" value="true">
+
+ <TABLE>
+ <TR>
+ <h3>Enter Quick Voucher</h3>
+  <td>Invoice Id   : <BR><input type="text" id="InvId" name="InvId" size="10" maxlength="30"></td>
+  <td>Invoice Dt   : <BR><input type="text" id="InvDt" name="InvDt" size="12" maxlength="12"></td>
+  <td>Vendor Id    : <BR><input type="text" id="VendId" name="VendId" size="10" maxlength="10"></td>
+  <td>Gross Amt    : <BR><input type="text" id="GAmt" name="GAmt" size="10"> </td>
+  <td>Description  : <BR><input type="text" id="Desc" name="Desc" size="10"></td>
+  <td>Ship To      : <BR><input type="text" id="ShipTo" name="ShipTo" size="10"></td>
+
+<HR>
+   <td>Account   : <BR><input type="text" id="Account" name="Acct" size="6"></td>
+   <td>Dept	     : <BR><input type="text" id="Dept" name="Dept" size="10"></td>
+   <td>Activity  : <BR><input type="text" id="Activity" name="Activity"  size="10" maxlength="15"></td>
+   <td>OU        : <BR><input type="text" id="OU" name = "OU" size="3" maxlength="3"></td>
+   <td>Source    : <BR><input type="text" id="Source" name = "Source" size="6" maxlength="6"></td>
+   <td>Fund      : <BR><input type="text" id="Fund" name = "Fund" size="5" maxlength="5"></td>
+   <td>Function: <BR><input type="text" id="Funct" name = "Funct" size="5" maxlength="5"></td>
+   <td>Program <BR><input type="text" id="Program" name = "Program" size="4" maxlength="10"></td>
+   <td>Purpose <BR><input type="text" id="Purpose" name = "Purpose" size="4" maxlength="10"></td>
+   <td>Property <BR><input type="text" id="Property" name = "Property" size="4" maxlength="10"></td>
+   <td>Project <BR><input type="text" id="Project" name = "Project" size="6" maxlength="15"></td>
+
+
+ </TR>
+
+
+  </TABLE>
+ <HR>
+ <input type="submit" id="btnSub" name="btnSub" value="Submit"><br>
+ </form>
+</body>
+</html>
